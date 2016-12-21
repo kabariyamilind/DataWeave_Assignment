@@ -128,6 +128,8 @@ class externalHashMap:
 
 if __name__ == "__main__": 
     maximumVersions = raw_input("Please enter number of versions:\n")
+    if maximumVersions =="":
+       maximumVersions=3
     exthash = externalHashMap(maximumVersions)
     listOcuurance = exthash.checkOccurance()
     todayrepetedList = exthash.getRepetedList()
