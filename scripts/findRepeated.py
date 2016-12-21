@@ -98,7 +98,7 @@ class externalHashMap:
             
     # this function contains generators which is built for reading the both today and tomorrows file.
     def checkOccurance(self):       
-        with open("../input/today_file2.txt") as today: #please mention today's crawled file path here
+        with open("../input/today_file.txt") as today: #please mention today's crawled file path here
             line = self.readLine(today)
             while True :
                 yieldedStr = next(line)
