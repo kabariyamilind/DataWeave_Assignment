@@ -1,0 +1,4 @@
+http://stackoverflow.com/questions/227459/ascii-value-of-a-character-in-python
+http://stackoverflow.com/questions/227459/ascii-value-of-a-character-in-python,2
+http://stackoverflow.com/questions/227459/ascii-value-of-a-character-in-python,1
+http://stackoverflow.com/questions/227459/ascii-value-of-a-character-in-python,3

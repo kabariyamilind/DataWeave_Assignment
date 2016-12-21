@@ -1,0 +1,1 @@
+http://stackoverflow.com/questions/227459/ascii-value-of-a-character-in-python
