@@ -1,0 +1,4 @@
+key:http://stackoverflow.com/questions/227459/ascii-value-of-a-character-in-python	version:0	value:test3
+key:http://stackoverflow.com/questions/227459/ascii-value-of-a-character-in-python	version:2	value:test1
+key:http://stackoverflow.com/questions/227459/ascii-value-of-a-character-in-python	version:1	value:test2
+key:http://stackoverflow.com/questions/227459/ascii-value-of-a-character-in-python	version:3	value:test3
