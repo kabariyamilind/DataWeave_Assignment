@@ -9,8 +9,8 @@ Created on Sun Dec 18 15:31:59 2016
 class keyValue:
     def __init__(self,key):
         self.key = key
-	    self.count = 1
-	    self.repeated=0
+	self.count = 1
+	self.repeated=0
             
 #hash function for caluclate the hash value for URLS
 def hashFunction(key):
@@ -66,12 +66,12 @@ class externalHashMap:
                 if keyobj.key == key:
                     #innerHash.innerHashMapAddValue(keyValueObj)
                     #innerHash.todayTimesOfOccurance+=1
-		            keyobj.count +=1
+		    keyobj.count +=1
                     self.exthashmapList[hashkey] = keyobj
                     break
                 else:
                     hashkey = hashkey+pow(j,2)
-		            remain = hashkey%100
+		    remain = hashkey%100
                     if hashkey >10000000:
                         hashkey=remain+0
 			j=0
