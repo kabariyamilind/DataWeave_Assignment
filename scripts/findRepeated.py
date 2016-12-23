@@ -141,7 +141,7 @@ if __name__ == "__main__":
         rc.write("Urlhs which are Repeatedly crawled\r\n")
         for urls in listOcuurance:
 	        if urls!= None:
-                rc.write(str(urls.key)+'\r\n')
+                	rc.write(str(urls.key)+'\r\n')
             
     with open("../output/Stats_for_today.txt","wb") as rc:
         rc.write("Stats for today\r\n")
