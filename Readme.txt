@@ -65,15 +65,11 @@ Problem-2:Finding common entries between two files
 		So adding data won't be an difficult task,But Searching a particular key and retrieve the data base on that key is a complicated task.
 		In order to take care all that complication below are the points implemented.
 			1. Here the heart of design is two level Hashing.
-				-> External hashing is for storing the pointers of internal hashing
-				-> Internal Hash store the key value pair object.
-				-> For External hash to avoid the collision linear probing used.
+				-> External hashing is for storing the key object
 			2. Here we have assumed per file there will be 10 million record so we have created Hash function base on that assumption.
-			3. Number of version that requires to store per key is upto the user.User will be asked to enter the number of version need to maintain per
-			   key at the time of execution of program.
-			4. Here url stores as a key.So in hash function we are converting each and every character to ascii equivalent in order to calculate value
+			3. Here url stores as a key.So in hash function we are converting each and every character to ascii equivalent in order to calculate value
 			   from hash function.
-			5. Here occurrence is calculated at the time of calling the ADD functionality.
+			4. Here occurrence is calculated at the time of calling the ADD functionality.
 			   
 Problem-3: Web Scraping
 	
