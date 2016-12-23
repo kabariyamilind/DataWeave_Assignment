@@ -86,7 +86,7 @@ class externalHashMap:
             if keyobj!=None:
                 if keyobj.key == key:
                     if keyobj.repeated ==0:
-                        keyobj.repeated==1
+                        keyobj.repeated=1
                     self.exthashmapList[hashkey] = keyobj
                     break
                 else:
@@ -140,7 +140,7 @@ if __name__ == "__main__":
     with open("../output/Repeatedly_crawled.txt","wb") as rc:
         rc.write("Urlhs which are Repeatedly crawled\r\n")
         for urls in listOcuurance:
-	        if urls!= None:
+	        if urls!= None and urls.repeated==1:
                 	rc.write(str(urls.key)+'\r\n')
             
     with open("../output/Stats_for_today.txt","wb") as rc:
